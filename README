@@ -1,0 +1,43 @@
+# PLPBasicGitAssignment
+
+## Tasks
+
+1. **Create GitHub Repository:**
+   - Create a new repository named `PLPBasicGitAssignment` on GitHub with a README.
+
+2. **Local Setup:**
+   - Create a folder named `PLPBasicGitAssignment`.
+   - Navigate to the folder in the terminal.
+   - Initialize Git:
+     ```bash
+     git init
+     ```
+   - Connect to GitHub:
+     ```bash
+     git remote add origin <repository-url>
+     ```
+
+3. **Make Changes:**
+   - Create `hello.txt` with the text "Hello, Git!".
+   - Stage the file:
+     ```bash
+     git add hello.txt
+     ```
+   - Commit the change:
+     ```bash
+     git commit -m "Add hello.txt with a greeting"
+     ```
+
+4. **Push to GitHub:**
+   - Push the commit:
+     ```bash
+     git push -u origin main
+     ```
+
+5. **Verify:**
+   - Check your GitHub repository to see `hello.txt` and the commit message.
+
+## Submission
+
+- Ensure changes are pushed.
+- Share the repository link with the instructor.
